@@ -14,7 +14,7 @@ mempool may be included in the list, but only if all of their parents appear bef
 Naturally, the miner would like to include the transactions that maximize the total fee.   
 
 Your task is to write a program which reads a file mempool.csv, with the format:   
- <txid> , <fee> , <weight> , <parent_txids>  
+ [txid] , [fee] , [weight] , [parent_txids] 
   
  ⭕ txid is the transaction identifier  
  ⭕ fee is the transaction fee  
